@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(0,0,0);
+  color: white;
+}
+
+// Text
+
+h2 {
+  font-size: 24px;
+}
+
+p.text-transparent {
+  opacity: 0.4;
+}
+
+// Width
+
+p.fixed-width-p {
+  width: 300px;
+}
+
+.width-100 {
+  max-width: 100px;
+}
+
+.width-500 {
+  max-width: 500px;
+}
+
+// Margin
+
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
+.m-s-40 {
+  margin: 0 40px;
+}
+
+.m-r-15 {
+  margin-right: 15px;
+}
+
+// Table
+
+.margin-dotted-table {
+  margin: 40px 0;
+  border: dotted 1px rgb(255,255,255);
+  img {
+    border-radius: 50%;
+  }
+  td {
+    padding: 10px 20px;
+  }
+  tr {
+    border: dotted 1px rgb(255,255,255);
+  }
+}

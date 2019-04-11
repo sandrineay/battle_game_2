@@ -1,0 +1,29 @@
+.first-picked img {
+  opacity: 0.2;
+}
+
+.second-picked img {
+  opacity: 0.2;
+}
+
+.player-list {
+  margin: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-item {
+  margin: 20px 20px;
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+.selected img {
+  opacity: 0.2;
+}
+
